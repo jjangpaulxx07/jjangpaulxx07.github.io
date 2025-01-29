@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1500;
+    margin: 0 auto;
+}
+.education-header{
+    padding: 10px;
+    height: 145px
+}
+#education-header {
+    background: whitesmoke;
+}
+.col-lg-4 img {
+    width: 100%;
+}
+.marketing .col-lg-4 {
+    margin-bottom: 2.5rem;
+    text-align: center;
+    margin-left: 344px;
+    padding-top: 40px;
+}
+main {
+    background: url(../image/education/background.webp) no-repeat;
+    background-size: cover;
+}
+span{
+    display: block;
+}
+.col-lg-4 h2 {
+    padding-top: 10px;
+    font-size: 40px;
+    color: black;
+    font-family: emoji;
+    font-weight: 700;
+    text-shadow: 2px 2px rgb(255, 255, 255)
+}
+.logo-container {
+    display: inline-block;
+}
+.logo-container img{
+    width: 150px;
+    margin: 0;
+    margin-left: 150px;
+}
+.nav-conatiner {
+    text-align: right;
+    padding-top: 57px;
+    float: right;
+}
+nav.header-navigation a {
+    color: white;
+    background-color: #dbdbdb;
+    padding: 17px;
+    border-radius: 29px;
+    margin-right: 22px;
+    font-size: 18px;
+}
+nav.header-navigation a:hover{
+     color: black;
+     font-weight: 800;
+}
+section.banner-section{
+    background: antiquewhite url('../image/banner.png') no-repeat;
+    height: 90vh;
+    background-size: cover;
+}
+.banner h1 {
+    padding-top: 230px;
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    text-shadow: 2px 2px black;
+}
+section.quote {
+    font-size: 35px;
+    padding: 65px 50px;
+    text-align: center;
+    background: #000000;
+    color: #ffffff;
+    text-shadow: 3px 1px 50px black, 0 0 52px black, 0 0 44px black;
+}
+.marketing .col-lg-4 p {
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
+    height: 12px;
+    color: black;
+    font-weight: 700;
+    font-family: emoji;
+}
